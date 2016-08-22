@@ -7,9 +7,12 @@ import com.wangkun.dao.UserDaoImpl;
 import com.wangkun.model.User;
 
 import controller.UserController;
-
+/**
+ * 测试
+ */
 public class UserDocumentDBTest {
-
+	
+	
 	private UserController userController;
 	
 	@Before
