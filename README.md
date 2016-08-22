@@ -10,4 +10,4 @@ B. 执行以下命令导入
       a. keytool -keystore "C:\Program Files\Java\jdk1.8.0_71\jre\lib\security\cacerts" -importcert -alias WoSign -file WS_CA1_NEW.cer
       b. 接下来 会提示输入密码，默认密码为 changeit，输入之后，选择‘是’将其安装到JDK 可信证书库中。
 C. 如果看到以下结果，则导入成功。
- Certificate wad added to keystore
+      Certificate wad added to keystore
