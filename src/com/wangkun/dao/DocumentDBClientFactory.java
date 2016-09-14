@@ -5,8 +5,10 @@ import com.microsoft.azure.documentdb.ConsistencyLevel;
 import com.microsoft.azure.documentdb.DocumentClient;
 
 public class DocumentDBClientFactory {
-	private static final String HOST = "https://wangkun.documents.azure.cn:443/";
-	private static final String MASTER_KEY = "OxHoP8OTXCRq1g06ZN9b1j0bZqgKiHzIGuADM4rU0EMRkznrVPghj4YN7gQrCjrojqpF5Q8G3GqmDwpm0eYuYA==";
+//	private static final String HOST = "https://wangkun.documents.azure.cn:443/";
+//	private static final String MASTER_KEY = "OxHoP8OTXCRq1g06ZN9b1j0bZqgKiHzIGuADM4rU0EMRkznrVPghj4YN7gQrCjrojqpF5Q8G3GqmDwpm0eYuYA==";
+	private static final String HOST = "https://kotei.documents.azure.cn:443/";
+	private static final String MASTER_KEY = "CCJH4qTr0popIdFbOYAo0ziPE7EjsoPAPjzLox8KBF1LCE4ExVKWSwRqjLOmMioAebe842cpb3owufHEfrvXCw====";
 	
 	private static DocumentClient documentClient;
 	
